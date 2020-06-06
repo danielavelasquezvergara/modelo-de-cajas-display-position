@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafío-3</title>
+</head>
+
+<body>
+    <section class="bandera-1">
+        <div class="contiene-bandera">
+            <div class="españa">
+                <div></div>
+            </div>
+            <p>España</p>
+        </div>
+        <div class="contiene-bandera">
+            <div class="dinamarca">
+                <div></div>
+                <div></div>
+            </div>
+            <p>Dinamarca</p>
+        </div>
+    </section>
+
+    <section class="bandera-2">
+        <div class="contiene-bandera">
+            <div class="emiratos-arabes">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+            <p>Emiratos Árabes</p>
+        </div>
+        <div class="contiene-bandera">
+            <div class="japon">
+                <div></div>
+            </div>
+            <p>Japón</p>
+        </div>
+    </section>
+</body>
+<style>
+    .dinamarca {
+        width: 400px;
+        height: 280px;
+        background: red;
+        position: relative;
+        border: 1px solid;
+        box-sizing: border-box;
+
+    }
+
+    .dinamarca div:nth-child(1) {
+        background: white;
+        width: 100%;
+        height: 30px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .dinamarca div:nth-child(2) {
+        background: white;
+        width: 30px;
+        height: 100%;
+        position: absolute;
+        left: 100px;
+        margin: auto;
+    }
+
+    .emiratos-arabes {
+        width: 400px;
+        height: 280px;
+        background: red;
+        position: relative;
+        border: 1px solid;
+        box-sizing: border-box;
+    }
+
+    .emiratos-arabes div {
+        width: 75%;
+        height: 33.3%;
+        position: relative;
+        left: 25%;
+        background: green;
+    }
+
+    .emiratos-arabes div:nth-child(1) {
+        background: green;
+    }
+
+    .emiratos-arabes div:nth-child(2) {
+        background: white;
+    }
+
+    .emiratos-arabes div:nth-child(3) {
+        background: black;
+    }
+
+    .españa {
+        width: 400px;
+        height: 280px;
+        background: red;
+        position: relative;
+        border: 1px solid;
+        box-sizing: border-box;
+    }
+
+    .españa div {
+        background: yellow;
+        width: 100%;
+        height: 100px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin: auto;
+    }
+
+    .japon {
+        width: 400px;
+        height: 280px;
+        position: relative;
+        border: 1px solid;
+        box-sizing: border-box;
+    }
+
+    .japon div {
+        background: red;
+        width: 100px;
+        height: 100px;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    .contiene-bandera {
+        display: inline-block;
+        margin: 20px;
+    }
+</style>
+
+</html>
